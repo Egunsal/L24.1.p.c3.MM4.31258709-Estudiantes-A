@@ -1,9 +1,9 @@
 let estudiantes=[
-    {nombre: "Mateo", semestre: 3, nota: 1},
-    {nombre: "Jonas", semestre: 3, nota: 15},
-    {nombre: "Moises", semestre: 7, nota: 13},
-    {nombre: "Ramon", semestre: 3, nota: 20},
-    {nombre: "Tobias", semestre: 2, nota: 17},
+    {nombre: "Mateo", semestre: 3, nota: 12},
+    {nombre: "Jonas", semestre: 3, nota: 16},
+    {nombre: "Moises", semestre: 7, nota: 18},
+    {nombre: "Ramon", semestre: 3, nota: 11},
+    {nombre: "Tobias", semestre: 2, nota: 19},
     
     let estudiantesSemestre = (estudiantes, semestre) => {
         let estudiantesFiltrados = [];
