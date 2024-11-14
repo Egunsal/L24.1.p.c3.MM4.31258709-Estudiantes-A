@@ -1,11 +1,10 @@
 let estudiantes=[
-    {nombre: "Tomi", semestre: 3, nota: 1},
-    {nombre: "Joe", semestre: 3, nota: 15},
-    {nombre: "Edwuard", semestre: 7, nota: 13},
-    {nombre: "Franxu", semestre: 3, nota: 20},
-    {nombre: "Juan", semestre: 2, nota: 17},
-    {nombre: "Kelvin", semestre: 6, nota: 20},
-    ]
+    {nombre: "Mateo", semestre: 3, nota: 1},
+    {nombre: "Jonas", semestre: 3, nota: 15},
+    {nombre: "Moises", semestre: 7, nota: 13},
+    {nombre: "Ramon", semestre: 3, nota: 20},
+    {nombre: "Tobias", semestre: 2, nota: 17},
+    
     let estudiantesSemestre = (estudiantes, semestre) => {
         let estudiantesFiltrados = [];
         estudiantes.forEach(estudiante => {
